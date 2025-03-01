@@ -13,7 +13,7 @@
           <input
             class="search-input"
             type="text"
-            name="serch"
+            name="search"
             placeholder="Search images..."
             required
           />
@@ -24,7 +24,14 @@
         <span class="loader"></span>
       </div>
       <ul class="gallery"></ul>
-      <button class="search-btn more-search" type="button">Load more</button>
+      <div class="load-more-btn-div">
+        <button class="search-btn load-more-btn hidden" type="button">
+          Load more
+        </button>
+      </div>
+      <div class="end-loader-div hidden">
+        <span class="end-loader"></span>
+      </div>
     </main>
     <script type="module" src="./main.js"></script>
   </body>
